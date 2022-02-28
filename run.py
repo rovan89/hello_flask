@@ -21,7 +21,7 @@ def contact():
 
 
 @app.route("/careers")
-def contact():
+def careers():
     return render_template("carreers.html")
 
 if __name__ == "__main__":
